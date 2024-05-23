@@ -1,0 +1,94 @@
+:root{
+--primary-6: 0, 0, 0;
+}
+a {
+  display: flex;
+  color: rgb(var(--link-6));
+  font-size: 14px;
+  line-height: 1.5715;
+  gap: 13px;
+  align-items: center;
+  padding: 1px 4px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all .1s linear;
+}
+.layout-collapse-demo {
+  height: 100vh;
+  background: var(--color-fill-2);
+}
+
+.plateforme-logo {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  height: fit-content;
+  margin: 0px;
+  padding: 10px;
+  background: rgb(var(--primary-6));
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 25px;
+}
+.plateforme-logo span {
+  font-size: 10px;
+  font-weight: 300;
+  margin-left: 5px;
+}
+
+.layout-collapse-demo .arco-layout-footer,
+.layout-collapse-demo .arco-layout-content {
+  color: var(--color-white);
+  font-stretch: condensed;
+  font-size: 16px;
+}
+
+.layout-collapse-demo .arco-layout-footer {
+  color: var(--color-text-2);
+  height: 48px;
+  line-height: 48px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.layout-collapse-demo .arco-layout-content {
+  background: var(--color-bg-3);
+  padding: 20px;
+  color: var(--color-text-2);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.layout-collapse-demo .arco-layout-header {
+  height: fit-content;
+  background: var(--color-bg-3);
+}
+
+.layout-collapse-demo .arco-layout-header .trigger {
+  margin-left: 20px;
+}
+.pageHeader {
+  background: #ffffffd6;
+}
+.arco-form-layout-vertical > .arco-form-label-item label {
+  display: flex;
+  flex-direction: row;
+}
+.arco-table-col-fixed-left, .arco-table-col-fixed-right {
+  position: sticky;
+  z-index: 10 !important;
+}
+.arco-tabs-content {
+  padding: 20px;
+}
+.arco-descriptions-body, .arco-list {
+  border-radius: 0px !important;
+}
+.db.pointer {
+  display: none;
+}
+.OtpInput {
+  width: 100% !important;
+  height: 50px;
+}
